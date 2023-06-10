@@ -1,0 +1,82 @@
+/* Write your CSS here */
+.nav-header {
+  display: flex;
+  justify-content: center;
+}
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+.logo {
+  height: 20px;
+  width: 20px;
+}
+
+.hamburg-button {
+  background-color: transparent;
+  width: 42px;
+  height: 35px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.popup-context {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  width: 100vw;
+  height: 100vh;
+}
+
+.close-button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  flex-grow: 1;
+}
+
+.close-button {
+  align-items: flex-end;
+  background-color: transparent;
+  width: 30px;
+  height: 30px;
+  border: none;
+  margin-top: 32px;
+  outline: none;
+  cursor: pointer;
+}
+
+.navList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0;
+  flex-grow: 1;
+}
+.nav-item {
+  list-style-type: none;
+}
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #1e293b;
+  text-decoration: none;
+  margin-bottom: 32px;
+}
+
+.nav-item-context {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 32px;
+  margin: 0px;
+  margin-left: 8px;
+}

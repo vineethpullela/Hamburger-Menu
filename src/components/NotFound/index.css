@@ -1,0 +1,37 @@
+/* Write your CSS here */
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.not-found-content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-found-responsive-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.not-found-img {
+  width: 475px;
+}
+
+.not-found-heading {
+  color: #334155;
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 16px;
+  margin: 0px;
+  margin-top: 32px;
+}
+.not-found-description {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-top: 16px;
+}
